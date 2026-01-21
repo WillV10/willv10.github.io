@@ -14,6 +14,6 @@ repo: https://github.com/YOURUSER/YOURREPO
 <iframe
   src="/assets/pdfs/High Altitude Glider.pdf"
   width="100%"
-  height="700px"
+  height="1000px"
   style="border:1px solid rgba(255,255,255,0.2); border-radius:12px;">
 </iframe>
