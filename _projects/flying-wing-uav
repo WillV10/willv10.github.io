@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "EKF State Estimator"
+title: "Flying Wing Senior Design"
 description: "IMU + baro fusion with gating and simulation-based validation."
 hero: /assets/images/projects/flight-path.png
 order: 2

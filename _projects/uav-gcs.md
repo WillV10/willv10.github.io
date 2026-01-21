@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "UAV Ground Control Station"
+title: "UAV Ground Control Station and Telemetry protocol"
 description: "PyQt6 GCS with live telemetry, offline maps, and command/ACK retry logic."
 hero: /assets/images/projects/flight-path.png
 order: 3
