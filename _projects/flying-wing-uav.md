@@ -2,10 +2,9 @@
 layout: project
 title: "Flying Wing Senior Design"
 description: "IMU + baro fusion with gating and simulation-based validation."
-hero: /assets/images/projects/flight-path.png
+hero: /assets/images/projects/Team 8 IMG_5027.JPG
 order: 2
-tags: [EKF, Estimation, C++]
-repo: https://github.com/YOURUSER/YOURREPO
+tags: [Aerodynamics, RC]
 ---
 
 # AE Senior Design Flying Wing

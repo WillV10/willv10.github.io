@@ -7,4 +7,5 @@
 - Flying experience
 - GCS program and data protocol
 - Nexito?
+- CNC hot wire
 
