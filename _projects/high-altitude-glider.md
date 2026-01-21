@@ -3,7 +3,7 @@ layout: project
 title: "High Altitude Glider"
 description: "IMU + baro fusion with gating and simulation-based validation."
 hero: /assets/images/projects/flight-path.png
-order: 2
+order: 1
 tags: [EKF, PX4, C++]
 repo: https://github.com/YOURUSER/YOURREPO
 ---
