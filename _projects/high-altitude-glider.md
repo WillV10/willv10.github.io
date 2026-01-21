@@ -24,6 +24,6 @@ tags: [Python, PX4, C++]
 
 ![Glider 2.0 Design](/assets/images/projects/IMG_8634.jpeg)
 
-![Glider 2.0 Internals](/assets/images/projects/IMG_8641.HEIC)
+![Glider 2.0 Internals](/assets/images/projects/IMG_8641.jpg)
 
-![Glider 2.0 Untethered Flight Path](/assets/images/projects/longitudinal-state-space.png)
+![Glider 2.0 Untethered Flight Path](/assets/images/projects/flight-path.png)
