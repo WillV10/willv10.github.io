@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Flying Wing Senior Design"
-description: "IMU + baro fusion with gating and simulation-based validation."
+description: "Senior Capstone Flying Wing Project"
 hero: /assets/images/projects/Team 8 IMG_5027.JPG
 order: 2
 tags: [Aerodynamics, RC]
