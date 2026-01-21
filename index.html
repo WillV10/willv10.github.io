@@ -1,0 +1,24 @@
+---
+layout: default
+title: Projects
+---
+
+<section class="home-intro">
+  <h1>Projects</h1>
+  <p>Click a project to see architecture, implementation details, results, and links.</p>
+</section>
+
+<div class="projects-grid">
+  {% assign sorted = site.projects | sort: "order" %}
+  {% for p in sorted %}
+    <a class="project-card" href="{{ p.url | relative_url }}">
+      <div class="card-image" style="background-image:url('{{ p.hero | relative_url }}');"></div>
+      <div class="card-body">
+        <div class="card-title">{{ p.title }}</div>
+        {% if p.description %}
+          <div class="card-desc">{{ p.description }}</div>
+        {% endif %}
+      </div>
+    </a>
+  {% endfor %}
+</div>

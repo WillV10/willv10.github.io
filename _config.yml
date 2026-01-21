@@ -1,0 +1,9 @@
+title: "Will Valentine – Engineering Portfolio"
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Optional: keeps URLs clean on GitHub Pages
+markdown: kramdown

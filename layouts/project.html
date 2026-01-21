@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<article class="project">
+  <header class="project-header">
+    {% if page.hero %}
+      <div class="project-hero" style="background-image:url('{{ page.hero | relative_url }}');"></div>
+    {% endif %}
+
+    <h1 class="project-title">{{ page.title }}</h1>
+
+    {% if page.description %}
+      <p class="project-desc">{{ page.description }}</p>
+    {% endif %}
+
+    <div class="project-links">
+      {% if page.repo %}<a href="{{ page.repo }}">GitHub Repo</a>{% endif %}
+      {% if page.demo %}{% if page.repo %}<span class="sep">•</span>{% endif %}<a href="{{ page.demo }}">Demo</a>{% endif %}
+      {% if page.pdf %}<span class="sep">•</span><a href="{{ page.pdf }}">PDF</a>{% endif %}
+    </div>
+
+    {% if page.tags %}
+      <div class="tag-row">
+        {% for t in page.tags %}
+          <span class="tag">{{ t }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </header>
+
+  <div class="project-content">
+    {{ content }}
+  </div>
+
+  <p class="back-link">
+    <a href="{{ '/' | relative_url }}">← Back to projects</a>
+  </p>
+</article>
