@@ -2,7 +2,7 @@
 layout: project
 title: "FPV Drones"
 description: "Fun with building and flying FPV drones to race and capture cool footage."
-hero: /assets/images/projects/IMG_9645.HEIC
+hero: /assets/images/projects/IMG_9645.jpeg
 order: 1
 tags: [Robust Control, H∞, UAV, Flight Test, System Identification]
 ---
